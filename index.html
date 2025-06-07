@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+<title>Colin Mitchell Portfolio</title>
+</head>
+<body>
+<!-- NAVBAR -->
+ <nav>
+    <div class="left">
+        <a href="/">Colin Mitchell</a>
+    </div>
+    <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener no-referrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/colinmsavage/" target="_blank" rel="noopener no-referrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+
+        <a href="files/Colin_SAVAGE_resume_2025.pdf" target="_blank" rel="noopener no-referrer">
+            <i class="fa-solid fa-file-arrow-down"></i>
+            <span>Resume</span>
+        </a>
+
+        <a href="mailto:cmsavage@scribecheck.net">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+    </div>
+ </nav>
+<hr/>
+ <main>
+    <!-- SECTION 1: HERO -->
+     <section class="hero-section">
+        <div class="text">
+            <h2>Hi, I'm Colin.</h2>
+            <p>I'm a web developer living in Chiba, Japan. I specialize in developing and maintaining front-end components using HTML, CSS, and JavaScript to support fullstack development with clean, maintainable, useable code.
+            <br />
+            <br />
+            This website is screen-reader friendly and adjusts to personal browser settings. 
+            </p>
+            <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+
+                <a href="#projects">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Projects</span>
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="headshot">
+            <img src="images/hero-headshot.jpg" alt="Colin Savage headshot in a circle.">
+
+        </div>
+     </section>
+
+    <!-- SECTION 2: SKILLS -->
+     <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate harum at placeat fugit laborum molestias sapiente officiis nulla sit? Incidunt nam exercitationem molestias suscipit ipsa non architecto nostrum! Voluptatum eum ipsum fuga tenetur modi corrupti laudantium, nisi eos id esse a ratione quia repudiandae sint quos quod? Blanditiis, dolorem quam.
+        </div>
+        <div class="cells">
+            <div class="cell">
+                <a href="files/Colin_SAVAGE_resume_2025.pdf" target="_blank">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                <span>Resume</span>
+                </a>
+            </div>
+         
+            <div class="cell">
+                <img src="images/html-logo.webp" alt="HTML logo.">
+                <span>HTML</span>
+            </div>
+
+              <div class="cell">
+                <img src="images/css-logo.webp" alt="CSS logo.">
+                <span>CSS</span>
+              </div>            
+
+            <div class="cell">
+                <img src="images/univ_access-logo.webp" alt="Universal access logo, a human icon in a closed circle.">
+                <span>WCAG</span>
+            </div>
+       <!--  
+            <div class="cell">
+                <img src="images/javascript-logo.webp" alt="JavaScript logo">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/node-logo.webp" alt="Node.js logo">
+                <span>Node.js</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/react-logo.webp" alt="React logo">
+                <span>React</span>
+            </div>
+-->
+        </div>
+     </section>
+
+    <!-- SECTION 3: PROJECTS -->
+     <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="group">
+            <div class="person-details">
+                <img src="images/testimony-headshot.webp" alt="headshot of Tim Testimony">
+                <p>Tim Testimony</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="text">
+                Click the links below to view details of past projects for clients and as a volunteer.
+            </div>
+        </div>
+     </section>
+
+    <!-- SECTION 4: CONTACT -->
+     <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+            <div class="text">
+            <p>Use the form to get in contact with me. </p>
+            <br />
+            <p>Please include your name, email, and a brief message about yourself and why you're reaching out.
+            </p>
+        <br />
+            <p>If you don't hear from me in 5 business days (a full week), please feel free to send another message via this form, or reach out directly to my email address.</p>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Jake Berenson" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="jberenson@fearlessleader.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Hi, my name is Jake. " required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+     </section>
+     <hr />
+ </main>
+     <!-- FOOTER --> 
+      <footer>
+ <a href="https://scribecheck.net">scribecheck.net</a> © 2025 Colin M. Savage
+</footer>
+</body>
+</html>
