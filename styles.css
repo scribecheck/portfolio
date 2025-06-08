@@ -51,6 +51,7 @@ nav {
 
 nav .active {
     color: var(--active-color);
+    text-decoration: underline 1px;
 }
 
 nav .left a {
@@ -163,6 +164,7 @@ hr {
     padding: 0 50px;
     margin-bottom: 100px;
     color: var(--text-color);
+    
 }
 
 .skills-section h2 {
@@ -205,16 +207,21 @@ hr {
     border-radius: 2px;
 }
 /* SECTION 3: Projects */
-
 .projects-section {
     padding: 0 50px;
     margin-bottom: 100px;
     color: var(--text-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    gap: 40px;
 }
 
 .projects-section h2 {
-    font-size: 35px;
-    margin-bottom: 30px;
+    font-size: 45px;
+    margin: 30px auto;
     
 }
 
@@ -252,9 +259,15 @@ hr {
 /* SECTION 4: Contact */
 
 .contact-section {
-padding: 0 50px;
-margin-bottom:100px;
-color: var(--text-color);
+    padding: 0 50px;
+    margin-bottom: 100px;
+    color: var(--text-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    gap: 40px;
 }
 
 .contact-section input,
@@ -263,7 +276,8 @@ color: var(--text-color);
 }
 
 .contact-section h2 {
-    font-size: 35px;
+    font-size: 45px;
+    margin: 30px auto;
 }
 
 .contact-section .group {
