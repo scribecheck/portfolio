@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+<title>Colin Mitchell Portfolio</title>
+</head>
+<body>
+<!-- NAVBAR -->
+ <nav>
+    <div class="left">
+        <a href="/">Colin Mitchell</a>
+    </div>
+    <div class="right">
+        <a href="index.html" rel="noopener no-referrer">
+           <span>ABOUT</span>
+        </a>
+
+        <a href="projects.html" rel="noopener no-referrer">
+            <span>PROJECTS</span>
+        </a>
+
+        <a href="contact.html" rel="noopener no-referrer">
+           <span class="active">CONTACT</span>
+        </a>
+
+        <a href="mailto:cmsavage@scribecheck.net">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+    </div>
+ </nav>
+<hr/>
+
+<!-- SECTION 4: CONTACT -->
+     <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+            <div class="text">
+            <p>Use the form to get in contact with me. </p>
+            <br />
+            <p>Please include your name, email, and a brief message about yourself and why you're reaching out.
+            </p>
+        <br />
+            <p>If you don't hear from me in 5 business days (a full week), please feel free to send another message via this form, or reach out directly to my email address.</p>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Jake Berenson" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="jberenson@fearlessleader.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Hi, my name is Jake. " required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+     </section>
+
+</body>
+</html>
