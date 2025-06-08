@@ -1,11 +1,12 @@
 :root {
-    --text-color: #e6e5e0; 
-    --background-color: #051720;
-    --link-color: #c5dbf0;
-    --active-color: #caffbf;
-    --focus-color: #f9a53e;
-    --hover-color: #f9a53e;
+    --text-color: #f3eff5; 
+    --background-color: #0d0a0b;
+    --link-color: #7bdff2 ;
+    --active-color: #f7d6e0;
+    --focus-color: #b2f7ef;
+    --hover-color: #bdb2ff;
 }
+
 
 * {
     margin: 0;
@@ -48,6 +49,10 @@ nav {
     height: 100px;
 }
 
+nav .active {
+    color: var(--active-color);
+}
+
 nav .left a {
     color: var(--link-color);
     font-size: 30px;
@@ -76,13 +81,11 @@ nav .right a span {
 nav .right a:last-child:hover {
     color: var(--background-color);
     background-color: var(--hover-color);
-    text-decoration: 1.5px solid underline;
 }
 
 nav .right a:hover,
 nav .left a:hover {
     color: var(--hover-color);
-    text-decoration: 1.5px solid underline;
 }
 
 nav .right a:last-child:active {

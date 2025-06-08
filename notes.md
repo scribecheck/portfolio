@@ -5,7 +5,28 @@ NOTES
 * Use WCAG best practices for overall design and accessibility between modes for different devices.
 * add button to download resume (PDF)
 
+    --text-color: #f3eff5; 
+    --background-color: #0d0a0b;
+    --link-color: #72b01d;
+    --active-color: #f7d6e0;
+    --focus-color: #b2f7ef;
+    --hover-color: #7bdff2;
+
+For Color-Gradient Text
+        background: linear-gradient(270deg,
+    #5bcffa,
+    #f5abb9,
+    #eff7f6,
+    #f5abb9,
+    #5bcffa);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+    transition: 0.1s;
+}
+
 SITE STRUCTURE
+
 --SECTION 1: Hero
 * Introduction
 * Headshot
