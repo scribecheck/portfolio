@@ -59,6 +59,9 @@ RESOURCES
 --COLORS
 * https://coolors.co/palettes/
 
+Website Color Shades & Tints
+https://tool.websitecolorpalette.com/
+
 --ICONS & EMOJIS
 * https://emojipedia.org/waving-hand
 * https://fontawesome.com/
