@@ -1,10 +1,10 @@
 :root {
     --text-color: #fdfdff; 
-    --background-color: #081c15;
-    --link-color: #ade8f4 ;
-    --active-color: #dda15e;
-    --focus-color: #90a955;
-    --hover-color: #90a955;
+    --background-color: #000000;
+    --link-color: #90e0ef ;
+    --active-color: #a2bffb;
+    --focus-color: #fff6f4;
+    --hover-color: #fff6f4;
 }
 
 
