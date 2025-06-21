@@ -51,7 +51,7 @@ nav {
 
 nav .active {
     color: var(--active-color);
-    outline: 1px solid var(--active-color);
+    outline: 3px solid var(--active-color);
     border-radius: 2px;
 }
 
