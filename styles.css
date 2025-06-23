@@ -30,6 +30,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--hover-color);
+}
+
 p {
     color: var(--text-color);
     font-size: 1rem;
@@ -43,6 +47,13 @@ h2 {
 h3 {
     font-size: 25px;
     color: var(--text-color);
+}
+
+.page {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    width: 90%;
 }
 
 /* FOOTER */
@@ -234,6 +245,7 @@ hr {
     object-fit: contain;
     border-radius: 2px;
 }
+
 /* SECTION 3: Projects */
 .projects-section {
     padding: 0 50px;
@@ -354,44 +366,31 @@ hr {
 
 /* SECTION 5: Photography*/
 
-.wrapper.style2 .box {
-	border-color: rgba(0, 0, 0, 0.15);
+.photography {
+    padding: 0 50px;
+}
+
+.photography h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.photography .box .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Box */
 
-.box {
-	margin-bottom: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box .image.fit {
-	margin: 0;
-	border-radius: 0;
-}
-
 .box .image.fit img {
 	border-radius: 3px;
-    outline: 1px solid var(--text-color);
+    outline: 1px solid gray;
+    margin: 5px;
 }
 
 
-.box .content {
-	padding: 3rem;
-}
-
-@media screen and (max-width: 736px) {
-
-		.box .content {
-			padding: 2rem;
-		}
-	}
-
-        .box {
-		    border-color: rgba(144, 144, 144, 0.25);
-	}
 
 @media (max-width: 850px) {
 /* SECTION 1: Hero */
