@@ -30,6 +30,21 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 35px;
+    color: var(--text-color);
+}
+
+h3 {
+    font-size: 25px;
+    color: var(--text-color);
+}
+
 /* FOOTER */
 footer {
     color: var(--text-color);
@@ -336,6 +351,47 @@ hr {
     background-color: var(--active-color);
     color: var(--text-color);
 }
+
+/* SECTION 5: Photography*/
+
+.wrapper.style2 .box {
+	border-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Box */
+
+.box {
+	margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .image.fit {
+	margin: 0;
+	border-radius: 0;
+}
+
+.box .image.fit img {
+	border-radius: 3px;
+    outline: 1px solid var(--text-color);
+}
+
+
+.box .content {
+	padding: 3rem;
+}
+
+@media screen and (max-width: 736px) {
+
+		.box .content {
+			padding: 2rem;
+		}
+	}
+
+        .box {
+		    border-color: rgba(144, 144, 144, 0.25);
+	}
 
 @media (max-width: 850px) {
 /* SECTION 1: Hero */
