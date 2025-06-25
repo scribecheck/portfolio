@@ -39,9 +39,15 @@ p {
     font-size: 1rem;
 }
 
+h1 {
+    font-size: 40px;
+    color: var(--text-color);
+}
+
 h2 {
     font-size: 35px;
     color: var(--text-color);
+    margin: 10px 0;
 }
 
 h3 {
@@ -51,7 +57,7 @@ h3 {
 
 .page {
     padding: 20px;
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
     color: var(--text-color);
     width: 90%;
 }
@@ -366,20 +372,20 @@ hr {
 
 /* SECTION 5: Photography*/
 
-.photography {
-    padding: 0 50px;
-}
 
-.photography h2 {
+.photography h2,
+.photography p:first-of-type,
+.photography p:nth-of-type(2) {
     text-align: center;
-    font-size: 35px;
 }
 
 
-.photography .box .row {
+.photography .box,
+.photography .row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 /* Box */
