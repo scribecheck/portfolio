@@ -1,0 +1,9 @@
+{
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.experimental.emptyResponseInformation": false,
+    "github.copilot.chat.reviewAgent.enabled": false,
+    "github.copilot.chat.copilotDebugCommand.enabled": false,
+    "github.copilot.chat.reviewSelection.enabled": false,
+    "inlineChat.lineNaturalLanguageHint": false,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false
+}
