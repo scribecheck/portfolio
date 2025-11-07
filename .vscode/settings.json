@@ -5,5 +5,7 @@
     "github.copilot.chat.copilotDebugCommand.enabled": false,
     "github.copilot.chat.reviewSelection.enabled": false,
     "inlineChat.lineNaturalLanguageHint": false,
-    "github.copilot.chat.codeGeneration.useInstructionFiles": false
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+    "github.copilot.chat.customInstructionsInSystemMessage": false
 }
+
