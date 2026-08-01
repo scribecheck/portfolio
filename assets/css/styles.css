@@ -1,6 +1,4 @@
 :root {
-    --text-color: #fdfdff; 
-    --background-color: #081c15;
     --link-color: #dad7cd ;
     --active-color: #a3b18a;
     --focus-color: #3e7eff;
@@ -13,6 +11,74 @@
 
     --regular-text: 1.1rem;
     --small-text: .75rem;
+
+
+    :root {
+  /* hsl (fallback color) */
+  --bg-dark: hsl(221 100% 3%);
+  --bg: hsl(208 100% 5%);
+  --bg-light: hsl(202 100% 7%);
+  --text: hsl(202 100% 93%);
+  --text-muted: hsl(201 72% 67%);
+  --highlight: hsl(195 100% 24%);
+  --border: hsl(197 100% 16%);
+  --border-muted: hsl(200 100% 11%);
+  --primary: hsl(200 85% 65%);
+  --secondary: hsl(24 78% 66%);
+  --danger: hsl(8 63% 66%);
+  --warning: hsl(52 49% 46%);
+  --success: hsl(151 41% 51%);
+  --info: hsl(217 73% 68%);
+  /* oklch */
+  --bg-dark: oklch(0.1 0.06 234);
+  --bg: oklch(0.15 0.06 234);
+  --bg-light: oklch(0.2 0.06 234);
+  --text: oklch(0.96 0.1 234);
+  --text-muted: oklch(0.76 0.1 234);
+  --highlight: oklch(0.5 0.12 234);
+  --border: oklch(0.4 0.12 234);
+  --border-muted: oklch(0.3 0.12 234);
+  --primary: oklch(0.76 0.12 234);
+  --secondary: oklch(0.76 0.12 54);
+  --danger: oklch(0.7 0.12 30);
+  --warning: oklch(0.7 0.12 100);
+  --success: oklch(0.7 0.12 160);
+  --info: oklch(0.7 0.12 260);
+}
+ /* 
+body.light {
+ hsl (fallback color) 
+  --bg-dark: hsl(202 100% 89%);
+  --bg: hsl(202 100% 94%);
+  --bg-light: hsl(202 100% 99%);
+  --text: hsl(219 100% 7%);
+  --text-muted: hsl(197 100% 16%);
+  --highlight: hsl(201 100% 97%);
+  --border: hsl(198 78% 41%);
+  --border-muted: hsl(200 70% 57%);
+  --primary: hsl(197 100% 16%);
+  --secondary: hsl(30 100% 19%);
+  --danger: hsl(7 47% 42%);
+  --warning: hsl(53 100% 17%);
+  --success: hsl(161 100% 19%);
+  --info: hsl(217 50% 44%);
+  oklch 
+  --bg-dark: oklch(0.92 0.06 234);
+  --bg: oklch(0.96 0.06 234);
+  --bg-light: oklch(1 0.06 234);
+  --text: oklch(0.15 0.12 234);
+  --text-muted: oklch(0.4 0.12 234);
+  --highlight: oklch(1 0.12 234);
+  --border: oklch(0.6 0.12 234);
+  --border-muted: oklch(0.7 0.12 234);
+  --primary: oklch(0.4 0.12 234);
+  --secondary: oklch(0.4 0.12 54);
+  --danger: oklch(0.5 0.12 30);
+  --warning: oklch(0.5 0.12 100);
+  --success: oklch(0.5 0.12 160);
+  --info: oklch(0.5 0.12 260);
+}
+  */
 
 }
 
@@ -29,7 +95,7 @@ html {
 
 body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--bg);
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -44,7 +110,7 @@ a:hover {
 }
 
 p {
-    color: var(--text-color);
+    color: var(--text);
     font-size: var(--regular-text);
 }
 
@@ -52,13 +118,13 @@ p {
 .page {
     padding: 20px;
     margin: 0 auto 10px auto;
-    color: var(--text-color);
+    color: var(--text);
     width: 90%;
 }
 
 /* FOOTER */
 footer {
-    color: var(--text-color);
+    color: var(--text);
     padding: 10px;
     margin: 10px auto;
     text-align: center;
@@ -117,7 +183,7 @@ nav .left a:hover {
 
 hr {
     width: 90%;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--text);
     margin: auto;
 }
 
@@ -130,12 +196,12 @@ hr {
     margin: 50px 0;
     margin-bottom: 100px;
     gap: 40px;
-    color: var(--text-color);
+    color: var(--text);
 }
 
 .hero-section .text {
     text-align: center;
-    color: var(--text-color);
+    color: var(--text);
 }
 
 
@@ -147,7 +213,7 @@ hr {
 .skills-section {
     padding: 0 50px;
     margin-bottom: 100px;
-    color: var(--text-color);
+    color: var(--text);
     
 }
 
@@ -195,7 +261,7 @@ hr {
 .projects-section {
     padding: 0 50px;
     margin-bottom: 100px;
-    color: var(--text-color);
+    color: var(--text);
 
     display: flex;
     justify-content: space-between;
@@ -246,7 +312,7 @@ hr {
 .contact-section {
     padding: 0 50px;
     margin-bottom: 100px;
-    color: var(--text-color);
+    color: var(--text);
 
     display: flex;
     justify-content: space-between;
@@ -257,7 +323,7 @@ hr {
 
 .contact-section input,
 .contact-section textarea {
-    color: var(--text-color);
+    color: var(--text);
 }
 
 .contact-section h2 {
@@ -294,8 +360,8 @@ hr {
 .contact-section .group form button {
     font-size: var(--regular-text);
     font-family: 'Poppins', sans-serif;
-    color: var(--background-color);
-    background-color: var(--link-color);
+    color: var(--bg);
+    background-color: var(--bg);
     height: 50px;
     transition: .1s;
 }
@@ -305,8 +371,8 @@ hr {
 }
 
 .contact-section .group form button:active {
-    background-color: var(--active-color);
-    color: var(--text-color);
+    background-color: var(--bg);
+    color: var(--text);
 }
 
 /* SECTION 5: Photography*/
