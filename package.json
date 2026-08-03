@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Colin portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scribecheck/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Colin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scribecheck/portfolio/issues"
+  },
+  "homepage": "https://github.com/scribecheck/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.102.0"
+  }
+}
