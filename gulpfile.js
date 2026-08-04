@@ -1,14 +1,4 @@
-const {src, dest, watch, series} = require('gulp')
-const sass = require('gulp-sass')(require('sass'))
-
-function buildStyles() {
-    return src('assets/scss/index.scss')
-        .pipe(sass())
-        .pipe(dest('assets/css'))
-}
-
-function watchTask() {
-    watch(['assets/scss/index.scss'], buildStyles)
-}
-
-exports.default = series(buildStyles, watchTask)
+const sass = require('gulp-sass')(require('sass'));
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+const sass = gulpSass(dartSass);
