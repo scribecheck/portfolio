@@ -107,6 +107,9 @@ RESOURCES
 * https://www.freecodecamp.org/news/web-accessibility-best-practices/
 * https://www.w3.org/WAI/tips/designing/
 
+--ANIMATIONS
+* https://freefrontend.com/css-particle-backgrounds/
+
 
 
 --COLORS
@@ -127,4 +130,3 @@ https://tool.websitecolorpalette.com/
 
 --REFERENCES
 * https://www.weareteachers.com/best-fonts-for-dyslexia/
-
