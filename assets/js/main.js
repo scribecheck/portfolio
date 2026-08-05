@@ -39,4 +39,3 @@
     setTheme(isLight ? "dark" : "light");
   });
 })();
-

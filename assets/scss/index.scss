@@ -12,7 +12,7 @@
 
     --p: "sans serif";
 
-    --shadow-s: inset 0 1px 2px #ffffff30, 0 1px 2px #00000030, 0 2px 4px #00000015;
+    --shadow-s: inset 0 2px 3px #aac1ff4d, 0 1px 2px #000f3059, 0 2px 4px #00000015;
     --shadow-m: inset 0 1px 2px #ffffff50, 0 2px 4px #00000030, 0 4px 8px #00000015;
     --transition: all 0.3s ease-in-out;
     --box-margin: 1rem .5rem;
@@ -20,7 +20,7 @@
 
 
 :root {
-  /* hsl (fallback color) */
+ /* hsl (fallback color) */
   --bg-dark: hsl(212 100% 3%);
   --bg: hsl(199 100% 3%);
   --bg-light: hsl(193 100% 4%);
@@ -38,7 +38,7 @@
   --logo:  hsl(187 100% 24%);
   /* oklch */
   --bg-dark: oklch(0.1 0.1 211);
-  --bg: oklch(0.15 0.1 211);
+  --bg: oklch(19.354% 0.04427 245.393);
   --bg-light: oklch(0.2 0.1 211);
   --text: oklch(0.96 0.1 211);
   --text-muted: oklch(0.76 0.1 211);
@@ -85,6 +85,9 @@ body.light {
   --success: oklch(0.5 0.2 160);
   --info: oklch(0.5 0.2 260);
 }
+
+
+
 
 /* global settings */
 
@@ -151,7 +154,7 @@ h2 {
 
 .section {
     padding: 2rem;
-    margin: 3% auto 10% auto;
+    margin: 3% auto 8% auto;
     color: var(--text);
     width: 90%;
 }
