@@ -21,21 +21,20 @@
 
 :root {
  /* hsl (fallback color) */
-  --bg-dark: hsl(212 100% 3%);
-  --bg: hsl(199 100% 3%);
-  --bg-light: hsl(193 100% 4%);
-  --text: hsl(190 100% 86%);
-  --text-muted: hsl(189 60% 59%);
-  --highlight: hsl(189 100% 12%);
-  --border: hsl(191 100% 9%);
-  --border-muted: hsl(194 100% 7%);
-  --primary: hsl(187 100% 24%);
-  --secondary: hsl(8 100% 73%);
-  --danger: hsl(7 100% 66%);
-  --warning: hsl(53 100% 21%);
-  --success: hsl(162 100% 22%);
-  --info: hsl(217 100% 70%);
-  --logo:  hsl(187 100% 24%);
+  --bg-dark: hsl(224, 100%, 5%);
+  --bg: hsl(208, 90%, 8%);
+  --bg-light: hsl(202, 100%, 9%);
+  --text: hsl(180, 100%, 81%);
+  --text-muted: hsl(189, 60%, 59%);
+  --highlight: hsl(194, 100%, 32%);
+  --border: hsl(198, 100%, 26%);
+  --border-muted: hsl(204, 100%, 20%);
+  --primary: hsl(190, 100%, 49%);
+  --secondary: hsl(9, 100%, 68%);
+  --danger: hsl(7, 100%, 65%);
+  --warning: hsl(50, 100%, 37%);
+  --success: hsl(155, 100%, 38%);
+  --info: hsl(214, 100%, 65%);
   /* oklch */
   --bg-dark: oklch(13.27% 0.04664 256.76);
   --bg: oklch(19.354% 0.04427 245.393);
