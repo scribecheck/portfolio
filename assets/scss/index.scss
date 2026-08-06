@@ -70,9 +70,9 @@ body.light {
   --success: hsl(159 100% 9%);
   --info: hsl(215 95% 42%);
   /* oklch */
-  --bg-dark: oklch(79.169% 0.10919 250.916);
+  --bg-dark: oklch(88.459% 0.06204 293.213);
   --bg: oklch(95.913% 0.02425 230.599);
-  --bg-light: oklch(88.459% 0.06204 293.213);
+  --bg-light: oklch(79.169% 0.10919 250.916);
   --text: oklch(20.044% 0.12585 275.173);
   --text-muted: oklch(0.4 0.2 268);
   --highlight: oklch(1 0.2 268);
@@ -154,7 +154,7 @@ h2 {
 
 .section {
     padding: 2rem;
-    margin: 3% auto 8% auto;
+    margin: 3% auto 4% auto;
     color: var(--text);
     width: 90%;
 }
@@ -167,14 +167,14 @@ h2 {
 
 .card {
     padding: 1rem 1.5rem;
-    background: var(--bg-dark);
+    background: var(--bg-light);
     box-shadow: var(--shadow-s);
     margin: var(--box-margin);
     border-radius: 8px;
 }
 
 .card:hover {
-    background: var(--bg-light);
+    background: var(--bg-dark);
     box-shadow: var(--shadow-m);
     transition: var(--transition);
     cursor: pointer;
